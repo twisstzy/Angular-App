@@ -1,4 +1,5 @@
-<h4>{{authorsLenght + "-Authors"}} </h4>
+<h4>{{authors.length + "-Authors"}} </h4>
 <ul>
     <li *ngFor="let author of authors">{{author}}</li>
 </ul>
+<button class="btn btn-primary" (click)="onSave()">Click</button>

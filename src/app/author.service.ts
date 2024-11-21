@@ -5,7 +5,5 @@ export class AuthorService {
   getAuthor(){
     return this.author
   }
-  getAuthorLenght(){
-    return this.author.length;
-  }  
+   
 }
